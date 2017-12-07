@@ -13,6 +13,10 @@
 		3CE56AF11FD9D50F0036A321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE56AF01FD9D50F0036A321 /* Assets.xcassets */; };
 		3CE56AF41FD9D50F0036A321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE56AF21FD9D50F0036A321 /* LaunchScreen.storyboard */; };
 		3CE56AFC1FD9D54F0036A321 /* DesignClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE56AFB1FD9D54F0036A321 /* DesignClasses.swift */; };
+		3CE56B021FD9DD650036A321 /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE56AFE1FD9DD650036A321 /* GothamRounded-Bold.otf */; };
+		3CE56B031FD9DD650036A321 /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE56AFF1FD9DD650036A321 /* GothamRounded-Book.otf */; };
+		3CE56B041FD9DD650036A321 /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE56B001FD9DD650036A321 /* GothamRounded-Light.otf */; };
+		3CE56B051FD9DD650036A321 /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE56B011FD9DD650036A321 /* GothamRounded-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3CE56AF31FD9D50F0036A321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE56AF51FD9D50F0036A321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE56AFB1FD9D54F0036A321 /* DesignClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignClasses.swift; sourceTree = "<group>"; };
+		3CE56AFE1FD9DD650036A321 /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Bold.otf"; path = "../../../gotham-rounded/GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		3CE56AFF1FD9DD650036A321 /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Book.otf"; path = "../../../gotham-rounded/GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		3CE56B001FD9DD650036A321 /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Light.otf"; path = "../../../gotham-rounded/GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		3CE56B011FD9DD650036A321 /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRounded-Medium.otf"; path = "../../../gotham-rounded/GothamRounded-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		3CE56ADD1FD9D50F0036A321 = {
 			isa = PBXGroup;
 			children = (
+				3CE56AFD1FD9DD300036A321 /* Resources */,
 				3CE56AE81FD9D50F0036A321 /* MyCalc */,
 				3CE56AE71FD9D50F0036A321 /* Products */,
 			);
@@ -58,13 +67,24 @@
 			children = (
 				3CE56AE91FD9D50F0036A321 /* AppDelegate.swift */,
 				3CE56AEB1FD9D50F0036A321 /* ViewController.swift */,
+				3CE56AFB1FD9D54F0036A321 /* DesignClasses.swift */,
 				3CE56AED1FD9D50F0036A321 /* Main.storyboard */,
 				3CE56AF01FD9D50F0036A321 /* Assets.xcassets */,
 				3CE56AF21FD9D50F0036A321 /* LaunchScreen.storyboard */,
 				3CE56AF51FD9D50F0036A321 /* Info.plist */,
-				3CE56AFB1FD9D54F0036A321 /* DesignClasses.swift */,
 			);
 			path = MyCalc;
+			sourceTree = "<group>";
+		};
+		3CE56AFD1FD9DD300036A321 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CE56AFE1FD9DD650036A321 /* GothamRounded-Bold.otf */,
+				3CE56AFF1FD9DD650036A321 /* GothamRounded-Book.otf */,
+				3CE56B001FD9DD650036A321 /* GothamRounded-Light.otf */,
+				3CE56B011FD9DD650036A321 /* GothamRounded-Medium.otf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE56B041FD9DD650036A321 /* GothamRounded-Light.otf in Resources */,
+				3CE56B021FD9DD650036A321 /* GothamRounded-Bold.otf in Resources */,
 				3CE56AF41FD9D50F0036A321 /* LaunchScreen.storyboard in Resources */,
+				3CE56B031FD9DD650036A321 /* GothamRounded-Book.otf in Resources */,
+				3CE56B051FD9DD650036A321 /* GothamRounded-Medium.otf in Resources */,
 				3CE56AF11FD9D50F0036A321 /* Assets.xcassets in Resources */,
 				3CE56AEF1FD9D50F0036A321 /* Main.storyboard in Resources */,
 			);
